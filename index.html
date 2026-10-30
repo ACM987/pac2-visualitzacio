@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bars, restaurants i hotels de Barcelona</title>
+  <style>
+    :root { --text: #222; --muted: #555; --bg: #fff; --link: #1f4fbf; }
+    body { margin: 0; background: var(--bg); color: var(--text);
+           font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.5; }
+    main { max-width: 900px; margin: 0 auto; padding: 24px 16px 48px; }
+    h1 { font-size: 1.6rem; margin: 0 0 4px; }
+    p { margin: 8px 0; }
+    .sub { color: var(--muted); }
+    img { width: 100%; height: auto; display: block; margin: 16px 0; }
+    .nota { font-size: 0.9rem; color: var(--muted); }
+    a { color: var(--link); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>On es concentren els bars, restaurants i hotels de Barcelona?</h1>
+    <p class="sub">Hexagon binning · PAC2, Visualització de dades (UOC)</p>
+
+    <img src="hexbin.png"
+         alt="Mapa de Barcelona amb 10.864 bars, restaurants i hotels agrupats en hexàgons d'uns 220 metres. Els hexàgons més foscos, amb 50 locals o més, són al Barri Gòtic i el Raval, a l'Antiga Esquerra de l'Eixample, a Sant Pere, Santa Caterina i la Ribera, i al centre comercial La Maquinista.">
+
+    <p class="nota">Dades: Ajuntament de Barcelona, Open Data BCN. Cens de locals en planta baixa 2024 (CC BY 4.0).
+      Mapa de fons: Tiles © Esri - Esri, DeLorme, NAVTEQ. Elaborat amb R i ggplot2.</p>
+    <p class="nota">Elaboració: Amat Cantí Mallofré. PAC2, Visualització de dades (UOC), octubre de 2026.</p>
+  </main>
+</body>
+</html>
